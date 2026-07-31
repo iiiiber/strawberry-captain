@@ -1,0 +1,49 @@
+# ===== 依赖 =====
+node_modules/
+.pnpm-store/
+
+# ===== 构建产物 =====
+dist/
+.vite/
+
+# ===== 环境变量 / 凭据 =====
+.env
+.env.local
+.env.production
+.env.development
+*.pem
+*.key
+*.crt
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 系统垃圾 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== 调试 / 测试残留 (不进仓) =====
+verify*.mjs
+test_*.mjs
+test_no_shake.mjs
+_pw.mjs
+_shots/
+*.png
+*.bak
+*.bak.*
+index.html.bak-*
+
+# ===== 整站备份 (不进仓) =====
+*.tar.gz
+*.zip
+
+# ===== Vite 缓存 =====
+.vite/
+
+# ===== User uploads (运行时产物) =====
+public/uploads/
